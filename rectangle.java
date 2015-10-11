@@ -11,8 +11,8 @@ public class rectangle extends shape implements Printable {
 		this.height = height;
 		this.width = width;
 // Invoke the methods in the superclass to set the type and name of this rectangle
-		setShapeType("quadrilateral");
-		setShapeName("rectangle");
+		setshapeType("quadrilateral");
+		setshapeName("rectangle");
 	}
 
 // Override the method inherited from Shape (which is implemented from the Printable interface) to handle custom description printing
