@@ -11,8 +11,8 @@ public class rhombus extends shape implements Printable {
 		this.diagonalA = diagonalA;
 		this.diagonalB = diagonalB;
 //Invoke the methods in the superclass to set the type and name of this rhombus
-		setShapeType("Quadrilateral");
-		setShapeName("Rhombus");
+		setShapeType("quadrilateral");
+		setShapeName("rhombus");
 	}
 
 //Override the method inherited from Shape (which is implemented from the Printable interface) to handle custom description printing
