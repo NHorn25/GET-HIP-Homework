@@ -11,8 +11,8 @@ public class triangle extends shape implements Printable {
 		this.base = base;
 		this.height = height;
 // Invoke the methods in the superclass to set the type and name of this trapezoid
-		setShapeType("triangle");
-		setShapeName("triangle");
+		setshapeType("triangle");
+		setshapeName("triangle");
 	}
 
 // Override the method inherited from Shape (which is implemented from the Printable interface) to handle custom description printing
