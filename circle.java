@@ -1,14 +1,14 @@
 package nolan.s.shapes;
 
-public class circle extends Shape implements Printable {
+public class circle extends shape implements Printable {
 
    private int radius;
 
    public circle(int radius){
        this.radius = radius;
 
-       setShapeType("Circle");
-       setShapeName("Circle");
+       setshapeType("Circle");
+       setshapeName("Circle");
    }
 
    @Override
