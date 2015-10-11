@@ -1,20 +1,20 @@
 package nolan.s.shapes;
 
-public abstract class Shape implements Printable {
+public abstract class shape implements Printable {
    private String shapeType;
    private String shapeName;
 
-    public String getShapeType(){
+    public String getshapeType(){
         return shapeType;
     }
-    public void setShapeType(String type) {
+    public void setshapeType(String type) {
            shapeType = type;
     }
-    public String getShapeName(){
+    public String getshapeName(){
        return shapeName;
     }
 
-    public void setShapeName(String name){
+    public void setshapeName(String name){
        shapeName = name;
     }
     public void printDescription(){
